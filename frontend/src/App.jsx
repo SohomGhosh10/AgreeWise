@@ -26,7 +26,7 @@ function App() {
     formData.append('file', file);
 
     try {
-      const response = await fetch('https://agreewise-pekw.onrender.com/upload', {
+      const response = await fetch('https://agreewise-lxez.onrender.com/upload', {
         method: 'POST',
         body: formData,
       });
@@ -54,7 +54,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('https://agreewise-pekw.onrender.com/analyze', {
+      const response = await fetch('https://agreewise-lxez.onrender.com/analyze', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
