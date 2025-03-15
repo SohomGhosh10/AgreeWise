@@ -157,5 +157,5 @@ def request_too_large(e):
     logger.warning("Request payload too large")
     return jsonify({"error": "Request payload too large. Maximum size is 10MB."}), 413
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
