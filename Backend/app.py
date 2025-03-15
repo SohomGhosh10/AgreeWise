@@ -8,11 +8,11 @@ from werkzeug.utils import secure_filename
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 
-app = Flask(_name_)
+app = Flask(__name__)
 CORS(app)
 
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(_name_)
+logger = logging.getLogger(__name__)
 
 limiter = Limiter(
     app=app,
