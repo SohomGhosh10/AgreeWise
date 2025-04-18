@@ -2,7 +2,7 @@
 
 
 ## Description
-The **AgreeWise** is an intelligent tool designed to analyze legal contracts and highlight potential risks. Using advanced Natural Language Processing (NLP), it identifies risky clauses, assigns a risk score, and provides actionable insights to help users make informed decisions. Whether you're a business professional, legal expert, or someone who deals with contracts regularly, this tool simplifies contract review and ensures you don't miss critical details.
+The **AgreeWise** is an intelligent tool designed to analyze legal contracts and highlight potential risks. Using One Rule Based Strategy, it identifies risky clauses, assigns a risk score, and provides actionable insights to help users make informed decisions. Whether you're a business professional, legal expert, or someone who deals with contracts regularly, this tool simplifies contract review and ensures you don't miss critical details.
 
 ---
 
@@ -19,8 +19,7 @@ The **AgreeWise** is an intelligent tool designed to analyze legal contracts and
 ## Tech Stack
 - **Frontend**: React, Tailwind CSS, Vite
 - **Backend**: Flask, Python
-- **NLP**: Keyword-based analysis with contextual understanding
-- **Deployment**: Vercel (Frontend), Render/Heroku (Backend)
+- **Deployment**: Vercel (Frontend), Render (Backend)
 
 ---
 
